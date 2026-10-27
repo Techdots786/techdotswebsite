@@ -1,21 +1,66 @@
-# TechDots website
+# TechDots Inc. — Corporate Website
 
-11 static HTML pages, shared styles.css and script.js, and locally bundled WebP images. No npm, framework or build step is required.
+Designed and developed by **Hybrid Hub Technologies (Pvt) Limited** at the request of **TechDots Inc.**
 
-## Open
-Open index.html in a browser, or serve this folder with any static web server. Upload the folder contents to your hosting document root. To preserve the current website, upload everything into a new subfolder such as /new-site/ and review there first. All navigation and asset URLs are relative.
+This project presents TechDots Inc.’s business technology solutions through a responsive website with a navy and cyan visual identity, dedicated service pages, and subtle connection-inspired animations. The design and content were prepared around the project brief and materials supplied for TechDots Inc.
 
-## Edit
-Change copy in the relevant HTML file, styling in styles.css, interactions in script.js. Header and footer are repeated in each HTML page. Logo is a crisp SVG asset with capital T and the reference cyan dot, hollow ring and connected white dot; used in every header and footer. Matching favicon included. Google Fonts load online; Arial is the offline fallback.
+## Project Credits
 
-## Contact
-The form validates required fields and prepares a mailto email draft. It does not send or store submissions. Connect a backend or form provider for direct delivery. Do not put private SMTP credentials in JavaScript. Contact details match the previously reviewed public site; verify them before launch.
+| Role | Organization |
+| --- | --- |
+| Commissioning organization | TechDots Inc. |
+| Website design and development | Hybrid Hub Technologies (Pvt) Limited |
 
-## Images
-The supplied generated artwork is bundled locally. People imagery illustrates professional teamwork and does not depict the actual TechDots team. The hero uses the exact supplied AT&T Alliance Channel Solution Provider JPEG, unchanged and with its original aspect ratio.
+## Website Overview
 
-## Accessibility and animation
-Includes keyboard navigation, skip link, mobile menu with expanded state, visible focus, reduced-motion support, scroll reveals and animated network canvas. Reduced-motion users get static content.
+The website includes 11 pages:
 
-## Validation
-JavaScript syntax checked; local link and asset references checked across all 11 HTML pages. Desktop homepage visually reviewed. Mobile responsive breakpoints implemented; separate mobile device QA is still recommended.
+- Home
+- Solutions
+- Enterprise Mobility
+- Wireline & Networking
+- Cloud & Storage
+- SD-WAN
+- Cybersecurity
+- Account Management
+- Managed IT & Technical Support
+- About TechDots
+- Contact
+
+The experience includes responsive navigation, individual solution pages, locally bundled imagery, hover effects, scroll reveals, and an animated network background. Reduced-motion preferences are supported.
+
+## Technology
+
+Built with HTML5, CSS3, and JavaScript. No framework, package installation, or build step is required.
+
+- HTML files contain page content and structure.
+- `styles.css` controls the visual design and responsive layouts.
+- `script.js` manages navigation, animations, and frontend interactions.
+- `assets/` contains website images, the TechDots logo, and favicon.
+
+## Getting Started
+
+Extract the complete project folder and open `index.html` in a modern browser. Keep the HTML files, stylesheet, JavaScript, and assets together so that page links and images resolve correctly.
+
+For deployment, upload the website files to a static hosting service or the web server’s document root. To review alongside an existing website, place the project in a separate directory or use a preview subdomain before switching the main domain.
+
+## Content and Brand Assets
+
+TechDots service information and company copy follow the materials supplied for the project. The AT&T Alliance Channel Solution Provider badge is included as supplied. Brand names and third-party marks remain the property of their respective owners.
+
+Generated people imagery is illustrative and does not represent photographs of the actual TechDots team.
+
+## Contact Form
+
+The current frontend form validates the required fields and opens the visitor’s email application with an enquiry draft. It does not independently send emails or store submissions. Direct submission delivery requires a backend or a connected form service.
+
+## Maintenance
+
+Update content in the relevant HTML page, visual styles in `styles.css`, and interactions in `script.js`. Shared headers and footers appear in each HTML file and should be updated consistently across all pages.
+
+Before public launch, confirm contact details, review the selected release on desktop and mobile, and test the deployment domain and contact workflow.
+
+---
+
+**Design & Development: Hybrid Hub Technologies (Pvt) Limited**  
+**Prepared for: TechDots Inc.**
