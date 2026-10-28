@@ -13,12 +13,13 @@ This project presents TechDots Inc.’s business technology solutions through a 
 
 ## Website Overview
 
-The website includes 11 pages:
+The website includes 12 pages:
 
 - Home
 - Solutions
 - Enterprise Mobility
 - Wireline & Networking
+- Telecom Expense Management
 - Cloud & Storage
 - SD-WAN
 - Cybersecurity

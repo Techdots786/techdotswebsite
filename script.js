@@ -1,7 +1,7 @@
 'use strict';
 document.documentElement.classList.add('js');
 const toggle=document.querySelector('.menu-toggle'),nav=document.querySelector('nav');
-const header=document.querySelector('header');function updateHeader(){header.classList.toggle('scrolled',scrollY>24);}updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});
+const header=document.querySelector('header'),attBadge=document.querySelector('.partner .att-badge'),attBadgeParent=attBadge?.parentElement,attBadgeNextSibling=attBadge?.nextSibling;function updateHeader(){const scrolled=scrollY>24;header.classList.toggle('scrolled',scrolled);if(attBadge){attBadge.classList.toggle('is-floating',scrolled);if(scrolled&&attBadge.parentElement!==document.documentElement)document.documentElement.append(attBadge);else if(!scrolled&&attBadgeParent&&attBadge.parentElement!==attBadgeParent)attBadgeParent.insertBefore(attBadge,attBadgeNextSibling?.parentElement===attBadgeParent?attBadgeNextSibling:null);}}updateHeader();window.addEventListener('scroll',updateHeader,{passive:true});
 function closeMenu(){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.setAttribute('aria-label','Open navigation');}
 toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');});
 nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
